@@ -15,7 +15,7 @@ $msdeployArguments = @(
     "-verb:sync",
     "-allowUntrusted",
     "-source:recycleApp",
-    "-dest:recycleApp=${recycleApp},recycleMode=${recycleMode},computerName=${computerNameArgument},username=${username},password=${password},AuthType='Basic'"
+    "-dest:recycleApp=${recycleApp},recycleMode=${recycleMode},computerName=${computerNameArgument},username=${username},password=${password},AuthType=Basic"  # Removed quotes around Basic
 )
 
 # Execute msdeploy with the arguments
