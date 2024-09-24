@@ -1,4 +1,4 @@
-name: "Simply Web Deploy"
+name: "Web Deploy For Windows "
 description: "Deploy projects directly to Simply IIS"
 inputs:
   website-name:
